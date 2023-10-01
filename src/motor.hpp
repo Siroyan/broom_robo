@@ -13,7 +13,7 @@ public:
     int16_t get_count(void);
 
 private:
-    const int PWM_FREQ = 5000;
+    const int PWM_FREQ = 50000;
     const int PWM_RESO = 8;
     const int COUNTER_H_LIM = 32767;
     const int COUNTER_L_LIM = -32767;
